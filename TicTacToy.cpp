@@ -13,7 +13,7 @@ bool gameover;
 //inicializa o game
 void initgame()
 {
-	jogador = 1; //x começa primeiro
+	jogador = 1; //x comeÃ§a primeiro
 
 	//"limpa" a matriz
 	for(int i = 0; i <= 2; i++)
@@ -25,7 +25,7 @@ void initgame()
 	}
 }
 
-//Quando a tecla é apertada ele reinicia ou sai
+//Quando a tecla Ã© apertada ele reinicia ou sai
 void tecla(unsigned char key, int x, int y ){
     switch(key){
 		case 's':
@@ -45,7 +45,7 @@ void tecla(unsigned char key, int x, int y ){
 	}
 }
 
-// Coloca x ou "o" no espaço em branco
+// Coloca x ou "o" no espaÃ§o em branco
 void click(int button, int state, int x, int y)
 {
 	if(gameover == false && button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
@@ -113,7 +113,7 @@ void desenhaXeO()
                 glVertex2f(50 + j * 100 + 25, 100 + i * 100 - 25);
 				glEnd();
 			}
-			else if(matrix[i][j] == 2) //Desenha o mais próximo do "o"
+			else if(matrix[i][j] == 2) //Desenha o mais prÃ³ximo do "o"
 			{
 				glBegin(GL_LINE_LOOP);
                 glVertex2f(50 + j * 100 - 25, 100 + i * 100 - 25);
@@ -217,7 +217,7 @@ void display()
 
 	if(checagem() == true)
 	{
-		//jogador que fez o último movimento venceu, ou não.
+		//jogador que fez o Ãºltimo movimento venceu, ou nÃ£o.
 		if(jogador == 1)
 		{
 			gameover = true;
@@ -266,7 +266,7 @@ void reshape(int x, int y)
 }
 
 
-//função main
+//funÃ§Ã£o main
 int main(int argc, char **argv)
 {
 	initgame();
