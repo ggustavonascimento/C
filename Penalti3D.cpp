@@ -1,4 +1,4 @@
-// Trabalho realizado por Gustavo Do Nascimento e Elson José de Oliveira Jr
+// Trabalho realizado por Gustavo Do Nascimento e Elson JosÃ© de Oliveira Jr
 
 
 #include <GL/glut.h>
@@ -323,12 +323,12 @@ int main(int argc, char *argv[])
     glutInitWindowPosition(10,10);
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
 
-    glutCreateWindow("Pênalti!!!");
+    glutCreateWindow("PÃªnalti!!!");
 
     if(chute == true)
     {
         glColor3f(0.8,0.1,0.3);
-        desenha(GLUT_BITMAP_HELVETICA_18, "Bota o Pé na forma", 0, 0, -15);
+        desenha(GLUT_BITMAP_HELVETICA_18, "Bota o PÃ© na forma", 0, 0, -15);
         if(placar == 1)
         desenha(GLUT_BITMAP_HELVETICA_18, "Gol!", 0, 0, -15);
 
