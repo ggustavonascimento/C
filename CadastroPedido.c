@@ -98,7 +98,7 @@ void opcao(no *LISTA, int op)
    break;
 
   case 1:
-  printf("Você selecionou a opção 1 - Cadastrar Pedido");
+  printf("VocÃª selecionou a opÃ§Ã£o 1 - Cadastrar Pedido");
 
     posicao=verifica_pos();
 
@@ -126,41 +126,41 @@ void opcao(no *LISTA, int op)
    break;
 
   case 2:
-   printf("Você selecionou a opção 2 - Por favor, Digite o código do pedido");
+   printf("VocÃª selecionou a opÃ§Ã£o 2 - Por favor, Digite o cÃ³digo do pedido");
    insereInicio(LISTA);
    break;
 
   case 3:
-    printf("Você selecionou a opção 3 - Por favor, Digite o código do pedido e onde ele deve ser inserido ");
+    printf("VocÃª selecionou a opÃ§Ã£o 3 - Por favor, Digite o cÃ³digo do pedido e onde ele deve ser inserido ");
     insere(LISTA);
    break;
 
   case 4:
-   printf("Você selecionou a opção 4 - Essa é sua lista de pedidos");
+   printf("VocÃª selecionou a opÃ§Ã£o 4 - Essa Ã© sua lista de pedidos");
    exibe(LISTA);
    break;
 
   case 5:
-  printf("Você selecionou a opção 5 - Esse é o detalhamento de cada codigo");
+  printf("VocÃª selecionou a opÃ§Ã£o 5 - Esse Ã© o detalhamento de cada codigo");
   list();
    break;
 
   case 6:
-  printf("Você selecionou a opção 6 - Retiramos o primeiro codigo que vc digitou");
+  printf("VocÃª selecionou a opÃ§Ã£o 6 - Retiramos o primeiro codigo que vc digitou");
    tmp= retiraInicio(LISTA);
    printf("Retirado: %3d\n\n", tmp->dado);
    system("cls");
    break;
 
   case 7:
-   printf("Você selecionou a opção 7 - ,Você escolhe de onde retirar ");
+   printf("VocÃª selecionou a opÃ§Ã£o 7 - ,VocÃª escolhe de onde retirar ");
    tmp= retira(LISTA);
    printf("Retirado: %3d\n\n", tmp->dado);
    system("cls");
    break;
 
   case 8:
-   printf("Fim de expediente? finalmente, limpamos a lista pra você");
+   printf("Fim de expediente? finalmente, limpamos a lista pra vocÃª");
    libera(LISTA);
    inicia(LISTA);
    system("cls");
@@ -400,7 +400,7 @@ int verifica_pos( void ){
     }
 
 
-int verifica_cod( int cod ) // VERIFICADOR DE CÓDIGO
+int verifica_cod( int cod ) // VERIFICADOR DE CÃ“DIGO
 {
       int cont = 0;
 
